@@ -44,6 +44,16 @@ nav {
 	font-family: 'Inknut Antiqua', serif;
 }
 
+h1 {
+	font-weight: 600;
+	font-size: 2.4rem;
+}
+
+h2,
+h3 {
+	font-weight: 400;
+}
+
 .container {
 	text-align: center;
 	max-width: 1150px;
@@ -63,6 +73,7 @@ nav {
 header {
 	background-color: #CAE3D0;
 	padding-top: 1rem;
+	padding-bottom: 30px;
 }
 
 .name {
@@ -317,23 +328,6 @@ footer {
 	.portfolio figure {
 		width: 33.33%
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
