@@ -1,0 +1,356 @@
+/***********************
+	Base Styles!!!
+************************/
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: #282928;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+body{
+	color: #282928;
+	line-height: 1.4;
+	letter-spacing: 0.04rem;
+}
+
+h1,
+h2,
+h3,
+nav {
+	font-family: 'Inknut Antiqua', serif;
+}
+
+.container {
+	text-align: center;
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/****************************
+	Header Styles @ Mobile
+****************************/
+
+header {
+	background-color: #CAE3D0;
+	padding-top: 1rem;
+}
+
+.name {
+	margin: 0 0 30px 0;
+}
+
+.main-nav {
+	margin-bottom: 50px;
+}
+
+.main-nav li {
+	margin-bottom: 5px;
+}
+
+.main-nav a {
+	display: block;
+	background-color: #F6F6F6;
+	padding: 10px;
+}
+
+.main-nav a:active {
+	background-color: #CAE3D0;
+}
+
+.profile-image {
+	padding: 0 30px 15px;
+}
+
+header p {
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+
+/**************************
+  Portfolio Styles @ Mobile
+***************************/
+
+#portfolio{
+	background-color: #CEDED2;
+}
+
+.portfolio {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.portfolio figure {
+	margin-bottom: 30px;
+}
+
+/**************************
+  Skills Styles @ Mobile
+***************************/
+
+#skills {
+	background-color: #CAE3D0;
+}
+
+.skills {
+	padding-top: 50px;
+}
+
+.skills p {
+	padding-bottom: 50px;
+}
+
+.skills figure {
+	padding-bottom: 25px;
+}
+
+.skills img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+/**************************
+  Contact Styles @ Mobile
+***************************/
+
+#contact {
+	background-color: #CEDED2;
+}
+
+.contact {
+	max-width: 768px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact p {
+	padding-bottom: 30px;
+}
+
+.contact span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact a {
+	font-weight: bold;
+}
+
+.contact a:active {
+	text-decoration: underline;
+}
+
+
+/**************************
+  Footer Styles @ Mobile
+***************************/
+
+footer {
+	background-color: #CEDED2;
+}
+
+.footer {
+	max-width: 1150px;
+	margin: 0 auto;
+	border-top: 1px solid #CACACA;
+}
+
+.footer h2,
+.footer h3 {
+	display: inline-block;
+}
+
+.footer h3 {
+	float: right;
+	margin-top: 23px;
+}
+
+.footer nav {
+	display: none;
+}
+
+.footer a:active {
+	text-decoration: underline;
+}
+
+
+/**************************
+  Media Queries Styles for 
+	   Larger Screens
+***************************/
+
+/****************************
+  Min-Width: 768px @ Tablets;
+*****************************/
+
+@media (min-width: 768px) {
+
+	/** Header **/
+
+	.name {
+		margin-bottom: 10px;
+	}
+
+	.main-nav li{
+		display: inline-block;
+	}
+
+	.main-nav a {
+		background: none;
+	}
+
+	.main-nav a:hover,
+	.main-nav a:active,
+	footer nav a:hover {
+		text-decoration: underline;
+	}
+
+	.profile-image {
+		float: right;
+		width: 40%;
+	}
+
+
+	/** Portfolio **/
+
+	.portfolio figure {
+		width: 50%;
+		float: left;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+
+
+	/** skills **/
+
+	.skills figure {
+		width: 50%;
+		float: left;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+
+
+	/** Footer **/
+
+	.footer h3 {
+		display: none;
+	}
+
+	.footer nav {
+		display: inline-block;
+		float: right;
+		margin-top: 12px; 
+	}
+
+	.footer li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+}
+
+
+/************************************
+  Min-Width: 1024px @ Larger screens;
+*************************************/
+
+@media (min-width: 1024px) {
+
+	/** Header **/
+
+	.name,
+	.main-nav,
+	header nav  {
+		display: inline-block;
+	}
+
+	.name {
+		float: left;
+	}
+
+	header nav {
+		float: right;
+	}
+
+	.main-nav {
+		margin-top: 0;
+	}
+
+	
+	/** Portfolio **/
+
+	.portfolio figure {
+		width: 33.33%
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
